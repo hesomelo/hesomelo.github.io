@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-
+// function to go back to the home page
 let go_back = ()=>{
 
         console.log("click")
@@ -40,6 +40,8 @@ let go_back = ()=>{
         console.log(window.location)
 }
 
+
+// listen and click a button
 document.addEventListener("DOMContentLoaded", function(){
     let exist = document.getElementById("return()_but")
     if(exist){
